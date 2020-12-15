@@ -1,0 +1,41 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://sprite/players.png" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="player_vermelho" type="Sprite" parent="."]
+position = Vector2( 115.344, 117.081 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 0, 90, 80, 82 )
+
+[node name="Position2D" type="Position2D" parent="player_vermelho"]
+
+[node name="player_amarelo" type="Sprite" parent="."]
+position = Vector2( 118.509, 80.3995 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 0, 3, 80, 82 )
+
+[node name="Position2D" type="Position2D" parent="player_amarelo"]
+
+[node name="player_azul" type="Sprite" parent="."]
+position = Vector2( 137.068, 96.1272 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 104, 92, 80, 81 )
+
+[node name="Position2D" type="Position2D" parent="player_azul"]
+
+[node name="player_verde" type="Sprite" parent="."]
+position = Vector2( 76.0081, 76.1958 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 97, 0, 80, 81 )
+
+[node name="Position2D" type="Position2D" parent="player_verde"]
