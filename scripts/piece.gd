@@ -1,10 +1,11 @@
 extends Node2D
 
-var pos = Vector2.ZERO
 var selected = false 
+var last_position = Vector2()
 var color = "None"
-
 var at_home = false
+var moves = 1 
+
 func ready():
 	pass
 
